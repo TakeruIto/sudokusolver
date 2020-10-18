@@ -10,6 +10,7 @@ def solve():
     path = parseargs()
     txt = file2txt(path)
     solver = Solver(txt)
+    solver.solve()
 
 if __name__ == "__main__":
     solve()
